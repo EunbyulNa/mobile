@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+
+}
+
+#wrap {
+
+}
+
+/*header*/
+#main_header {
+  height: 45px;
+  background: url('img/header_background.png') repeat-x;
+  text-align: center;
+}
+
+#main_header > h1 {
+color: #fff;
+}
+
+#main_header .left, #main_header .right {
+  position: absolute;
+  top: 7px;
+  height: 32px;
+  background: url('img/header.png');
+  text-indent: -9999px;
+}
+
+#main_header .left {
+left: 5px;
+width: 62px;
+background-position: -10px -10px;
+
+}
+
+#main_header .right {
+right: 5px;
+width: 32px;
+background-position: -92px -10px;
+
+}
