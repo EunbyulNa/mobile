@@ -71,6 +71,12 @@ display: block;
 display: none;
 }
 
+#toggle:checked + #wrap section {
+display: none;
+}
+
+
+
 /*toggle*/
 #toggle_wrap {
 
@@ -86,18 +92,16 @@ display: none;
 }
 
 .toggle_nav li {
-  padding: 12px 0;
+
 
 }
 
 .toggle_nav a {
   display: block;
   color: #fff;
-  margin-left: 10px;
-  padding-bottom: 5px;
-  line-height: 20px;
+  padding: 10px 0;
+  margin-left: 5px;
   border-bottom: 1px solid #464646;
-
 
 }
 
