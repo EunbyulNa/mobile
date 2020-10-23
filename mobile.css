@@ -118,6 +118,8 @@ display: none;
   width: 20%;
   height:40px;
   text-align: center;
+  background-color: black;
+  border-right: 1px solid #BABABA;
 }
 
 #main_gnb .first_gnb {
@@ -126,7 +128,7 @@ display: none;
 
 }
 
-#main_gnb > div:before {
+/*#main_gnb > div:before {
   position: absolute;
   top: 10px;
   left: -1px;
@@ -135,10 +137,10 @@ display: none;
   width: 1px;
   height: 23px;
   background-color: #BABABA;
-}
+}*/
 
 #main_gnb > div > a {
-  color:#3F3f42;
+  color:#fff;
   line-height: 40px;
   font-size: 1em;
 }
