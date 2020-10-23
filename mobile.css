@@ -110,8 +110,6 @@ display: none;
 #main_gnb {
   display: table;
   width: 100%;
-  /*background:#1e1e1e;*/
-  /*border-bottom: 1px solid #464646;*/
 }
 
 #main_gnb > div {
@@ -216,7 +214,6 @@ padding: 15px;
 .article_txt a {
   color: #3f3f42;
   font-weight: bold;
-
   text-decoration: underline;
 
 }
@@ -226,7 +223,6 @@ padding: 15px;
 }
 
 .cmt_box span{
-
   padding: 17px 25px;
   background-color: #B80000;
   color: #fff;
@@ -305,9 +301,6 @@ border-bottom: 1px solid #BABABA;
   top: 17px;
 }
 
-.footer2 li {
-
-}
 
 .footer2 a {
   display: inline-block;
