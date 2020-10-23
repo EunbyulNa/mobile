@@ -120,15 +120,10 @@ display: none;
   text-align: center;
 }
 
-#main_gnb .first_gnb:after {
-  position: absolute;
-  top: 32px;
-  left: 18px;
-  display: block;
-  content: "";
-  width: 65px;
-  height: 5px;
-  background-color:#B80000;
+#main_gnb .first_gnb {
+  padding: 0;
+  border-bottom: 4px solid #B80000;
+
 }
 
 #main_gnb > div:before {
