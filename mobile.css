@@ -115,7 +115,7 @@ display: none;
 #main_gnb > div {
   position: relative;
   display: table-cell;
-  width: 20%;
+
   height:40px;
   text-align: center;
   background-color: black;
@@ -130,12 +130,12 @@ display: none;
 #main_gnb > div:before {
   position: absolute;
   top: 10px;
-  left: -1px;
+  left: 0;
   display: block;
   content: "";
   width: 1px;
   height: 23px;
-  background-color: #BABABA;
+  background-color: #464646;
 }
 
 #main_gnb > div > a {
