@@ -126,6 +126,9 @@ display: none;
   border-bottom: 4px solid #B80000;
 
 }
+#main_gnb .first_gnb::before {
+  display: none;
+}
 
 #main_gnb > div:before {
   position: absolute;
