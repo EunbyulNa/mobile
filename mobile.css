@@ -14,7 +14,7 @@ a {
 }
 
 body {
-font-family: sans-serif;
+font-family: Helvetica,Arial,freesans,sans-serif;
 }
 
 #wrap {
@@ -30,6 +30,7 @@ font-family: sans-serif;
 
 #main_header > h1 {
 color: #fff;
+line-height:45px;
 }
 
 #main_header .left, #main_header .right {
@@ -142,4 +143,80 @@ display: none;
   color:#fff;
   line-height: 27px;
   font-size: 0.9em;
+}
+
+/*sec*/
+
+section {
+  margin: 20px 15px;
+}
+
+section header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #BABABA;
+}
+
+section header h1 {
+  font-size: 35px;
+  line-height: 35px;
+  font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+}
+
+section header p {
+  font-size: 14px;
+  color: #696969;
+  margin: 15px 0 25px 0;
+}
+
+section header span {
+  font-size: 13px;
+  color: #3f3f42;
+  font-weight: bold;
+  border: 1px solid #B80000;
+  padding: 8px 9px;
+}
+
+article {
+  margin-top: 20px;
+}
+
+
+.article_img {
+  margin: 15px 0;
+}
+
+.article_img img {
+  max-width: 100%;
+}
+
+.article_txt h4 {
+  color: #3f3f42;
+  margin-bottom: 15px;
+}
+
+.article_txt ul {
+padding: 15px;
+}
+
+.article_txt ul.bars {
+  padding: 5px 10px 10px 25px;
+}
+
+
+.article_txt li {
+  list-style:circle;
+}
+
+.article_txt a {
+  color: #3f3f42;
+  font-weight: bold;
+  line-height: 35px;
+  text-decoration: underline;
+
+}
+
+.cmt_box span{
+  padding: 5px 15px;
+  background-color: #B80000;
+  color: #fff;
 }
